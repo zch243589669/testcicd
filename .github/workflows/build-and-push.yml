@@ -9,7 +9,7 @@ on:
 
 env:
   REGISTRY: registry.cn-hangzhou.aliyuncs.com
-  NAMESPACE: your-namespace      # ⚠️ 修改为你的 ACR 命名空间
+  NAMESPACE: openclawtest      # ✅ ACR 命名空间
   IMAGE_NAME: test-cicd-vue
 
 jobs:
