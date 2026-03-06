@@ -3,5 +3,6 @@ module.exports = defineConfig({
   transpileDependencies: true,
   publicPath: './',
   outputDir: 'dist',
-  assetsDir: 'static'
+  assetsDir: 'static',
+  lintOnSave: false  // 禁用 ESLint
 })
