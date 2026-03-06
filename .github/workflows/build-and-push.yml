@@ -8,8 +8,9 @@ on:
   workflow_dispatch:
 
 env:
-  REGISTRY: registry.cn-hangzhou.aliyuncs.com
-  NAMESPACE: openclawtest      # ✅ ACR 命名空间
+  # ✅ 个人版 ACR 的 Registry 地址（从你的截图获取）
+  REGISTRY: crpi-89k5s06phjem1e2r.cn-hangzhou.personal.cr.aliyuncs.com
+  NAMESPACE: openclawtest
   IMAGE_NAME: test-cicd-vue
 
 jobs:
