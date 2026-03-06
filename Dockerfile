@@ -7,7 +7,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # 安装所有依赖（包括 devDependencies，构建需要）
-RUN npm ci
+RUN npm install
 
 # 复制源代码并构建
 COPY . .
